@@ -15,8 +15,19 @@
     display: flex;
     justify-content: space-between;
     .menu__flag {
+      position: relative;
       z-index: 10;
       margin: 0;
+      p {
+        position: absolute;
+        top: 20px;
+        left: 8px;
+        color: #003E84;
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Arvo';
+        text-transform: uppercase;
+      }
     }
     .menu__logo {
       z-index: 10;

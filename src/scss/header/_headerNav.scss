@@ -24,7 +24,7 @@
 }
 .header__contacts {
   height: 100%;
-  padding-top: 20px;
+  padding-top: 30px;
   .phone {
     width: 201px;
     height: 54px;
@@ -41,6 +41,7 @@
     width: 201px;
     height: 21px;
     line-height: 21px;
+    border-bottom: 1px solid #FFBC21;
     .email__link {
       color: #000000;
       font-size: 14px;

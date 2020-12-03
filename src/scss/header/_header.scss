@@ -1,0 +1,121 @@
+.header {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 125px;
+  display: flex;
+  // background-color: rgb(194, 190, 190);
+  .container {
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    .header__wrapp {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      height: auto;
+
+      // position: fixed;
+      // top: 0;
+      // left: 0;
+      // right: 0;
+      // z-index: 50;
+      .header__logo {
+        margin: 11px 50px 0 0;
+        img {
+          width: 100%;
+        }
+      }
+      .header__flag {
+        margin-right: 50px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// media
+@media (max-width: 1280px) {
+  .header {
+    .container {
+      width: 1280px;
+      height: 100%;
+      margin: 0 auto;
+      .header__wrapp {
+        .header__logo {
+          margin: 11px 48px 0 0;
+        }
+        .header__flag {
+          margin-right: 48px;
+        }
+      }
+    }
+  }
+}
+
+// 1024px
+@media (max-width: 1024px) {
+  .header {
+    height: 108px;
+    .container {
+      width: 1280px;
+      height: 100%;
+      margin: 0 auto;
+      .header__wrapp {
+        .header__logo {
+          margin: 11px 18px 0 0;
+          img {
+            max-width: 78px;
+            height: auto;
+          }
+        }
+        .header__flag {
+          margin-right: 16px;
+          img {
+            max-width: 102px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 767px
+@media (max-width: 767px) {
+  .header {
+    height: 90px;
+    .container {
+      width: 768px;
+      height: 100%;
+      margin: 0 auto;
+      .header__wrapp {
+        display: none;
+        .header__logo {
+          margin: 11px 18px 0 0;
+          img {
+            width: 65px;
+            height: auto;
+          }
+        }
+        .header__flag {
+          margin-right: 18px;
+          img {
+            width: 79px;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+// header__wrapp-reference
+// .header {
+//   .container {
+//     .header__wrapp-reference {
+//       display: none;
+//     }
+//   }
+// }

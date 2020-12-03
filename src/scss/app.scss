@@ -1,0 +1,16 @@
+@import 'fonts';
+@import './header/header';
+@import './header/headerNav';
+@import './header/menu';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Arvo', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Prompt', sans-serif;
+}
+
+

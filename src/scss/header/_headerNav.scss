@@ -1,0 +1,124 @@
+.nav {
+  width: 677px;
+  height: 125px;
+  line-height: 125px;
+  margin-right: 74px;
+  .nav__list {
+    display: flex;
+    justify-content: space-between;
+    .nav__item {
+      .nav__link {
+        color: #000000;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: 'Prompt';
+      }
+    }
+    .nav__item:nth-child(5) {
+      padding: 0;
+    }
+    .nav__item:hover {
+      border-bottom: 5px solid #ffbc21;
+    }
+  }
+}
+.header__contacts {
+  height: 100%;
+  padding-top: 20px;
+  .phone {
+    width: 201px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    .phone__link {
+      color: #000000;
+      font-size: 35px;
+      font-weight: 400;
+      font-family: 'Prompt';
+    }
+  }
+  .email {
+    width: 201px;
+    height: 21px;
+    line-height: 21px;
+    .email__link {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Prompt';
+    }
+  }
+}
+
+// media
+@media (max-width: 1280px) {
+  .nav {
+    margin-right: 72px;
+  }
+}
+
+// 1024px
+@media (max-width: 1024px) {
+  .nav {
+    width: 500px;
+    margin-right: 16px;
+    line-height: 108px;
+    .nav__list {
+      .nav__item {
+        .nav__link {
+          font-size: 14px;
+        }
+      }
+      .nav__item:hover {
+        border-bottom: 3px solid #ffbc21;
+      }
+    }
+  }
+  .header__contacts {
+    padding-top: 22px;
+    .phone {
+      height: 40px;
+      line-height: 40px;
+      .phone__link {
+        font-size: 32px;
+      }
+    }
+  }
+}
+
+
+// 768px
+@media (max-width: 768px) {
+  .nav {
+    width: 400px;
+    margin-right: 18px;
+    line-height: 90px;
+    .nav__list {
+      .nav__item {
+        .nav__link {
+          font-size: 12px;
+        }
+      }
+      .nav__item:hover {
+        border-bottom: 2px solid #ffbc21;
+      }
+    }
+  }
+  .header__contacts {
+    padding-top: 16px;
+    .phone {
+      width: 180px;
+      height: 36px;
+      line-height: 36px;
+      .phone__link {
+        font-size: 24px;
+      }
+    }
+    .email {
+      width: 180px;
+      .email__link {
+        font-size: 12px;
+      }
+    }
+  }
+}

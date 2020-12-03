@@ -1,0 +1,17 @@
+.main__block-wrapp {
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 835px;
+  .main__slider-people {
+    position: relative;
+    display: flex;
+    background: url(/dist/static/main-bg.png) no-repeat center;
+    height: 835px;
+    .container {
+      width: 1300px;
+      margin: 0 auto;
+      height: 100%;
+    }
+  }
+}

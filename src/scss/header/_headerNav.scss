@@ -1,12 +1,13 @@
 .nav {
   width: 677px;
   height: 125px;
-  line-height: 125px;
+  line-height: 122px;
   margin-right: 74px;
   .nav__list {
     display: flex;
     justify-content: space-between;
     .nav__item {
+      z-index: 1;
       .nav__link {
         color: #000000;
         font-size: 17px;

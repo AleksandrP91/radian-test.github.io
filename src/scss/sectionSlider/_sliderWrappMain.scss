@@ -1,0 +1,64 @@
+.slider__wrapp-main {
+  .slider__title {
+    margin: 155px 0 0 8px;
+    width: 493px;
+    height: 76px;
+    color: #003e84;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Arvo';
+    text-transform: uppercase;
+  }
+  .habat__logo {
+    margin: 10px 0 0 8px;
+  }
+  .slider__text {
+    margin-top: 24px;
+    width: 349px;
+    height: 70px;
+    p {
+      color: #000000;
+      font-size: 17px;
+      font-weight: 400;
+      font-family: 'Prompt';
+    }
+  }
+  .slider__button {
+    margin-top: 40px;
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 24px;
+      width: 287px;
+      height: 60px;
+      background-color: #ffbc21;
+      color: #000000;
+      font-size: 17px;
+      font-weight: 400;
+      font-family: 'Prompt';
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      .a {
+        fill: #ffbc21;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+      }
+      .b {
+        stroke: #000000;
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,116 @@
+// .slider__wrapp-house {
+//   position: absolute;
+//   top: 277px;
+//   left: 310px;
+.slider__title-house {
+  position: absolute;
+  top: 277px;
+  left: 310px;
+  margin: 0 0 0 8px;
+  width: 560px;
+  height: 122px;
+  color: #ffffff;
+  font-size: 31px;
+  font-weight: 700;
+  font-family: 'Arvo';
+  text-transform: uppercase;
+}
+.slider__button-house {
+  position: absolute;
+  top: 492px;
+  left: 310px;
+  width: 287px;
+  margin: 0 0 0 8px;
+  .btn-house {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    width: 271px;
+    height: 60px;
+    background-color: #ffbc21;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Prompt';
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .btn-house:hover {
+    background-color: #ffcf4b;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    .a {
+      fill: #ffcf4b;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+    }
+    .b {
+      stroke: #000000;
+      transition: 0.2s;
+      -webkit-transition: 0.2s;
+      -moz-transition: 0.2s;
+      -ms-transition: 0.2s;
+      -o-transition: 0.2s;
+    }
+  }
+}
+// }
+
+// media
+@media (max-width: 1600px) {
+  .slider__title-house {
+    top: 191px;
+    left: 170px;
+  }
+  .slider__button-house {
+    top: 403px;
+    left: 170px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .slider__title-house {
+    left: 70px;
+  }
+  .slider__button-house {
+    left: 70px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .slider__title-house {
+    left: 30px;
+  }
+  .slider__button-house {
+    left: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slider__title-house {
+    width: 260px;
+    height: 104px;
+    font-size: 20px;
+    top: 68px;
+    left: 42px;
+  }
+  .slider__button-house {
+    top: 325px;
+    left: 42px;
+    .btn-house {
+      width: 254px;
+      height: 60px;
+      font-size: 15px;
+      padding-left: 56px;
+    }
+  }
+}
+

@@ -3,15 +3,145 @@
   max-width: 1920px;
   margin: 0 auto;
   height: 835px;
+  display: flex;
   .main__slider-people {
+    display: none;
     position: relative;
-    display: flex;
-    background: url(../static/main-bg.png) no-repeat center;
-    height: 835px;
+    .main__images {
+      height: 835px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
     .container {
-      width: 1300px;
+      // max-width: 1300px;
       margin: 0 auto;
       height: 100%;
+    }
+  }
+  .mask__slider-people {
+    display: none;
+    position: relative;
+    .mask__images {
+      height: 835px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+    .container {
+      // max-width: 1300px;
+      margin: 0 auto;
+      height: 100%;
+    }
+  }
+  .house__slider-people {
+    display: none;
+    position: relative;
+    .house__images {
+      height: 835px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+    .container {
+      // max-width: 1300px;
+      margin: 0 auto;
+      height: 100%;
+    }
+  }
+}
+
+// активное состояние
+.main__slider-people.active {
+  display: block;
+}
+
+.mask__slider-people.active {
+  display: block;
+}
+
+.house__slider-people.active {
+  display: block;
+}
+
+// media
+@media (max-width: 1600px) {
+  .main__block-wrapp {
+    height: 735px;
+    .main__slider-people {
+      .main__images {
+        height: 735px;
+      }
+    }
+    // mask
+    .mask__slider-people {
+      .mask__images {
+        height: 735px;
+      }
+    }
+    // house
+    .house__slider-people {
+      .house__images {
+        height: 735px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .main__block-wrapp {
+    height: 660px;
+    .main__slider-people {
+      .main__images {
+        height: 660px;
+      }
+    }
+    // mask
+    .mask__slider-people {
+      .mask__images {
+        height: 660px;
+        img {
+          object-fit: none;
+        }
+      }
+    }
+    // house
+    .house__slider-people {
+      .house__images {
+        height: 660px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main__block-wrapp {
+    height: 586px;
+    .main__slider-people {
+      .main__images {
+        height: 586px;
+      }
+    }
+    // mask
+    .mask__slider-people {
+      .mask__images {
+        height: 586px;
+      }
+    }
+    // house
+    .house__slider-people {
+      .house__images {
+        height: 586px;
+      }
     }
   }
 }

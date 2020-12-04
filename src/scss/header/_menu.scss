@@ -14,6 +14,7 @@
     margin: 0 20px;
     display: flex;
     justify-content: space-between;
+    height: 54px;
     .menu__flag {
       position: relative;
       z-index: 10;
@@ -22,7 +23,7 @@
         position: absolute;
         top: 20px;
         left: 8px;
-        color: #003E84;
+        color: #003e84;
         font-size: 18px;
         font-weight: 700;
         font-family: 'Arvo';
@@ -48,7 +49,7 @@
       height: 30px;
       display: flex;
       align-items: center;
-      justify-content: center;;
+      justify-content: center;
       cursor: pointer;
       .burger {
         display: block;
@@ -79,7 +80,8 @@
         -moz-transition: 0.3s all;
         -ms-transition: 0.3s all;
         -o-transition: 0.3s all;
-}
+        background-color: #FFBC21;
+      }
       .burger::after {
         content: '';
         position: absolute;
@@ -100,7 +102,8 @@
         -moz-transition: 0.3s all;
         -ms-transition: 0.3s all;
         -o-transition: 0.3s all;
-}
+        background-color:#FFBC21;
+      }
     }
 
     // menu pop-up

@@ -20,6 +20,11 @@
     }
     .nav__item:hover {
       border-bottom: 5px solid #ffbc21;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
     }
   }
 }
@@ -55,7 +60,7 @@
 // media
 @media (max-width: 1280px) {
   .nav {
-    margin-right: 72px;
+    margin-right: 40px;
   }
 }
 

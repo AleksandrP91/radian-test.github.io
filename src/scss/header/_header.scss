@@ -3,12 +3,6 @@
   margin: 0 auto;
   height: 125px;
   display: flex;
-  // position: fixed;
-  // top: 0;
-  // left: 0;
-  // right: 0;
-  // z-index: 50;
-  // background-color: #fff;
   .container {
     width: 1300px;
     height: 100%;
@@ -29,6 +23,7 @@
         margin-right: 50px;
         z-index: 10;
         img {
+          position: relative;
           width: 100%;
         }
         .flag__title {
@@ -51,10 +46,10 @@
           height: 45px;
           text-align: center;
           top: 70px;
-          left: 14px; 
+          left: 14px;
           line-height: 45px;
           p {
-            color: #003E84;
+            color: #003e84;
             font-size: 30px;
             font-weight: 700;
             font-family: 'Arvo';
@@ -75,10 +70,24 @@
       margin: 0 auto;
       .header__wrapp {
         .header__logo {
-          margin: 11px 48px 0 0;
+          margin: 11px 18px 0 0;
         }
         .header__flag {
-          margin-right: 48px;
+          margin-right: 18px;
+          img {
+            width: 139px;
+          }
+          .flag__title {
+            width: 90px;
+            top: 14px;
+            left: 26px;
+          }
+          .flag__descr {
+            left: 14px;
+            p {
+              font-size: 24px;
+            }
+          }
         }
       }
     }
@@ -102,10 +111,20 @@
           }
         }
         .header__flag {
-          margin-right: 16px;
+          margin-right: 18px;
           img {
-            max-width: 102px;
-            height: auto;
+            width: 119px;
+          }
+          .flag__title {
+            top: 12px;
+            left: 14px;
+          }
+          .flag__descr {
+            top: 64px;
+            left: 2px;
+            p {
+              font-size: 24px;
+            }
           }
         }
       }
@@ -116,7 +135,7 @@
 // 767px
 @media (max-width: 767px) {
   .header {
-    height: 90px;
+    height: 54px;
     .container {
       width: 768px;
       height: 100%;

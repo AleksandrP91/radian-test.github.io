@@ -1,0 +1,42 @@
+.tabs {
+  margin: 112px auto 0;
+  max-width: 1920px;
+  min-height: 900px;
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    .tabs__title {
+      padding: 0 20px;
+      text-align: center;
+      color: #000000;
+      font-size: 36px;
+      font-weight: 400;
+      font-family: 'Arvo';
+    }
+    .tabs__subtitle {
+      margin-top: 16px;
+      text-align: center;
+      color: #000000;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Roboto';
+    }
+  }
+}
+
+// media
+@media (max-width: 767px) {
+  .tabs {
+    margin-top: 60px;
+    .container {
+      .tabs__title {
+        padding: 0 20px;
+        font-size: 30px;
+      }
+      .tabs__subtitle {
+        padding: 0 20px;
+        font-size: 15px;
+      }
+    }
+  }
+}

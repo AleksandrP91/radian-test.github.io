@@ -1,0 +1,60 @@
+.tabs__content {
+  margin-top: 76px;
+  .content__button {
+    display: flex;
+    justify-content: center;
+    .btn {
+      width: 265px;
+      height: 70px;
+      color: #000000;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: 'Prompt';
+      background-color: #ffffff;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+    }
+    .btn:hover {
+      background-color: #003e84;
+      color: #ffffff;
+      transition: 0.4s;
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      -ms-transition: 0.4s;
+      -o-transition: 0.4s;
+    }
+    .btn.active {
+      background-color: #003e84;
+      color: #ffffff;
+    }
+  }
+  .btn-acc {
+    width: 320px;
+    height: 70px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Prompt';
+    background-color: #003e84;
+    border: none;
+    outline: none;
+  }
+}
+
+// media
+@media (max-width: 767px) {
+  .tabs__content {
+    margin-top: 30px;
+    .content__button {
+      .none {
+        display: none;
+      }
+      .btn {
+        width: 320px;
+        height: 70px;
+      }
+    }
+  }
+}

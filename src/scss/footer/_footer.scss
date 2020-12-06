@@ -1,11 +1,46 @@
 .footer {
-  margin: 122px auto 0;
+  padding: 0 20px 48px;
+  margin: 112px auto 0;
   max-width: 1920px;
+  min-height: 748px;
   background-color: #003e84;
-  min-height: 714px;
   .container {
+    position: relative;
     max-width: 1300px;
     margin: 0 auto;
-    min-height: 714px;
+    .footer__logotype {
+      position: absolute;
+      top: 0;
+      left: -160px;
+      max-width: 582px;
+      height: 395px;
+      img {
+        width: 350px;
+      }
+    }
+    .logo-habat {
+      padding-top: 77px;
+    }
+  }
+}
+
+// media
+@media (max-width: 767px) {
+  .footer {
+    .container {
+      .footer__logotype {
+        top: 20px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+      }
+      .logo-habat {
+        text-align: center;
+        padding-top: 57px;
+      }
+    }
   }
 }

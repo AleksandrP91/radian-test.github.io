@@ -3,6 +3,7 @@ import slider from './slider';
 // import buttonClick from './buttonClick';
 import tabs from './tabs';
 import accordion from './accordion';
+import modalWindow from './modal'
 
 window.addEventListener('DOMContentLoaded', function () {
   'use strict';
@@ -11,4 +12,5 @@ window.addEventListener('DOMContentLoaded', function () {
   // buttonClick();
   tabs()
   accordion();
+  modalWindow();
 });

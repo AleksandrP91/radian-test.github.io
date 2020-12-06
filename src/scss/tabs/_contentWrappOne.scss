@@ -1,6 +1,5 @@
 .content__wrapp-one {
   margin-top: 40px;
-  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   min-height: 621px;
@@ -20,23 +19,29 @@
         align-items: center;
         width: 247px;
         min-height: 59px;
-        color: #000000;
-        font-size: 24px;
-        font-weight: 400;
-        font-family: 'Arvo';
+        p {
+          color: #000000;
+          font-size: 24px;
+          font-weight: 400;
+          font-family: 'Arvo';
+        }
       }
     }
     .block__text {
       padding: 20px 0 0 54px;
-      // width: 270px;
+      min-width: 200px;
       min-height: 60px;
       p {
+        min-width: 200px;
         color: #000000;
         font-size: 16px;
         font-weight: 400;
         font-family: 'Prompt';
         line-height: 34px;
       }
+    }
+    .arrow {
+      display: none;
     }
   }
 }
@@ -47,6 +52,10 @@
 @media (max-width: 767px) {
   .content__wrapp-one.active {
     display: none;
+    .content__block {
+      .arrow {
+        display: block;
+      }
+    }
   }
 }
-

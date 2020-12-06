@@ -1,0 +1,75 @@
+.kontakt__wrapp {
+  margin-right: 20px;
+  .title {
+    color: #ffbc21;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Prompt';
+  }
+  .wrapper {
+    margin-top: 38px;
+    .kontakt__adress {
+      width: 280px;
+      height: 40px;
+      p {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Roboto';
+      }
+    }
+    .kontakt__phone {
+      margin-top: 30px;
+      .phone__link {
+        color: #ffbc21;
+        font-size: 36px;
+        font-weight: 300;
+        font-family: 'Prompt';
+      }
+      .email__link {
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        border-bottom: 1px solid #ffbc21;
+      }
+    }
+    .kontakt__button {
+      margin-top: 48px;
+      .kontakt-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 48px;
+        width: 283px;
+        height: 50px;
+        border-radius: 29px;
+        -webkit-border-radius: 29px;
+        -moz-border-radius: 29px;
+        -ms-border-radius: 29px;
+        -o-border-radius: 29px;
+        border: 1px solid #5987bb;
+        outline: none;
+        cursor: pointer;
+        background-color: transparent;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto';
+        img {
+          padding-right: 13px;
+        }
+      }
+    }
+  }
+}
+
+// media
+@media (max-width: 767px) {
+  .kontakt__wrapp {
+    margin: 44px 0 0 0;
+    .wrapper {
+      margin-top: 30px;
+    }
+  }
+}

@@ -1,11 +1,22 @@
 // const buttonClick = function () {
-//   let root = document.documentElement;
-//   document.addEventListener('mousedown', function (ev) {
-//     let el = ev.target;
-//     let x = (ev.clientX - el.offsetLeft) / el.offsetWidth;
-//     let y = (ev.clientY - el.offsetTop) / el.offsetHeight;
-//     root.style.setProperty('--ripple-x', x);
-//     root.style.setProperty('--ripple-y', y);
+//   const button = document.querySelectorAll('.but');
+
+//   button.forEach(function (btn) {
+//     btn.addEventListener('click', function (elem) {
+//       let x = elem.clientX - elem.target.offsetLeft;
+//       let y = elem.clientY - elem.target.offsetRight;
+
+//       let ripples = document.createElement('span');
+//       ripples.style.left = x + 'px';
+//       ripples.style.top = y + 'px';
+//       ripples.classList.add('color');
+//       this.appendChild(ripples);
+
+//       setTimeout(function () {
+//         ripples.remove();
+//       }, 3000);
+//       console.log(ripples);
+//     });
 //   });
 // };
 

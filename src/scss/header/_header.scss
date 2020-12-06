@@ -12,10 +12,37 @@
       justify-content: space-between;
       width: 100%;
       height: 125px;
+      position: relative;
       .header__logo {
         margin: 11px 50px 0 0;
         img {
           width: 100%;
+        }
+      }
+      .button__top {
+        position: absolute;
+        z-index: 100;
+        top: 125px;
+        right: 0;
+        .top {
+          width: 200px;
+          height: 66px;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          background-color: #003e84;
+          color: #ffffff;
+          font-size: 15px;
+          font-family: 'Prompt';
+          font-weight: 400;
+        }
+        .top:hover {
+          background-color: #0055b5;
+          transition: 0.4s;
+          -webkit-transition: 0.4s;
+          -moz-transition: 0.4s;
+          -ms-transition: 0.4s;
+          -o-transition: 0.4s;
         }
       }
       .header__flag {
@@ -156,16 +183,11 @@
             height: auto;
           }
         }
+        .button__top {
+          display: none;
+        }
       }
     }
   }
 }
 
-// header__wrapp-reference
-// .header {
-//   .container {
-//     .header__wrapp-reference {
-//       display: none;
-//     }
-//   }
-// }

@@ -35,8 +35,9 @@
       }
     }
     .accordion__content {
+      margin: 26px 0 0 20px;
       display: flex;
-      align-items: center;
+      flex-direction: column;
       position: relative;
       height: 0;
       overflow: hidden;
@@ -48,11 +49,10 @@
       p {
         min-width: 189px;
         min-height: 29px;
-        margin: 39px 0 34px 20px;
         color: #000000;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
-        font-family: 'Arvo';
+        font-family: 'Prompt';
         line-height: 34px;
       }
     }
@@ -60,7 +60,7 @@
 }
 
 .accordion__wrapp.active .accordion__content {
-  height: 180px;
+  height: 160px;
 }
 
 .accordion__wrapp.active .arrow {
@@ -71,7 +71,7 @@
   -o-transform: rotate(180deg);
 }
 
-// media 
+// media
 @media (max-width: 767px) {
   .accordion {
     display: block;

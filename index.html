@@ -34,7 +34,7 @@
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item">
-                <a href="#" class="nav__link">Storitve</a>
+                <a href="#" class="nav__link" id="storitve">Storitve</a>
               </li>
               <li class="nav__item">
                 <a href="#" class="nav__link">Reference</a>
@@ -63,6 +63,10 @@
                 >info@slikopleskarstvo-habat.si</a
               >
             </div>
+          </div>
+          <!-- button top -->
+          <div class="button__top">
+            <button class="top">Pošlji povpraševanje</button>
           </div>
         </div>
 
@@ -129,6 +133,115 @@
     </header>
     <!-- /header -->
 
+    <!-- modal -->
+    <div class="modal__window">
+      <div class="modal__wrapp">
+        <!-- section left -->
+        <div class="section__block-left">
+          <!-- block 1 -->
+          <div class="block">
+            <div class="images">
+              <img src="dist/static/icon-1.svg" alt="icon-1" />
+            </div>
+            <div class="descr">
+              <h2 class="title">Notranja slikopleskarska dela</h2>
+              <p>Beljenje stanovanja ali hiše</p>
+              <p>Pleskanje stanovanja ali hiše</p>
+              <p>Glajenje in kitanje sten</p>
+            </div>
+          </div>
+
+          <!-- block 2 -->
+          <div class="block">
+            <div class="images">
+              <img src="dist/static/icon-2.svg" alt="icon-2" />
+            </div>
+            <div class="descr">
+              <h2 class="title">Zunanja slikopleskarska dela</h2>
+              <p>Barvanje fasad</p>
+              <p>Delo na večjih objektih</p>
+              <p>Pleskanje kovinskih ograj in nadstreškov</p>
+            </div>
+          </div>
+
+          <!-- block 3 -->
+          <div class="block">
+            <div class="images">
+              <img src="dist/static/icon-3.svg" alt="icon-3" />
+            </div>
+            <div class="descr">
+              <h2 class="title">Izvedba hidroizolacije</h2>
+              <p>Hidroizolacije teras</p>
+              <p>Notranje hidroizolacije objektov</p>
+              <p>Sanacija vlažnih zidov kletnih prostorov</p>
+            </div>
+          </div>
+
+          <!-- block 4 -->
+          <div class="block">
+            <div class="images">
+              <img src="dist/static/icon-4.svg" alt="icon-4" />
+            </div>
+            <div class="descr">
+              <h2 class="title">Suhomontažna gradnja</h2>
+              <p>Postavitev pregradnih sten</p>
+              <p>Montaža spuščenih stropov</p>
+              <p>Montaža raztegljivih stropov</p>
+              <p>Oblaganje podstrešja</p>
+            </div>
+          </div>
+
+          <!-- block 5 -->
+          <div class="block">
+            <div class="images">
+              <img src="dist/static/icon-5.svg" alt="icon-5" />
+            </div>
+            <div class="descr">
+              <h2 class="title">Delo s talnimi oblogami</h2>
+              <p>Delo z industrijskimi tlaki</p>
+            </div>
+          </div>
+
+          <!-- block 6 -->
+          <div class="block">
+            <div class="images">
+              <img src="dist/static/icon-6.svg" alt="icon-6" />
+            </div>
+            <div class="descr">
+              <h2 class="title">Pametne inštalacije</h2>
+              <p>Montaža pametnih sten piši-briši</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- section right -->
+        <div class="section__block-right">
+          <div class="block__images">
+            <img src="dist/static/icon-7.svg" alt="icon-7" />
+            <h2>Storitve za podjetja</h2>
+          </div>
+          <div class="block__descr">
+            <p>
+              Podjetje Habat d.o.o. je specializirano na področju
+              slikopleskarstva v večjih proizvodnih obratih in poslovnih
+              prostorih.
+            </p>
+            <p>
+              S pomočjo sodobne tehnologije in najnovejših orodij izvajamo
+              slikopleskarska dela na objektih, kjer je potrebna obdelava
+              velikih površin – stenskih ali tlakov. Beljenje večjih prostorov
+              izvajamo z visokotlačnimi črpalkami za brizganje barve na pištolo,
+              s katero lahko prebelimo tudi do 2.000m2 površin dnevno.
+            </p>
+          </div>
+          <div class="block__button">
+            <button>Preberite več</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /modal -->
+
     <!-- slider -->
     <div class="main__block-wrapp">
       <!-- main -->
@@ -138,8 +251,6 @@
           <div class="main__images">
             <img src="dist/static/main-bg.png" alt="main-background" />
           </div>
-          <!-- wrapp -->
-          <!-- <div class="slider__wrapp-main"> -->
           <!-- h1 -->
           <h1 class="slider__title">Zanesljivo slikopleskarstvo</h1>
           <!-- logo -->
@@ -155,7 +266,7 @@
           </div>
           <!-- button -->
           <div class="slider__button">
-            <button class="btn">
+            <button class="btn-main">
               Oglejte si naše storitve
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -404,6 +515,10 @@
 
         <!-- tabs content -->
         <div class="tabs__content">
+          <!-- button-block -->
+          <div class="button-block">
+            <p>Storitve za fizične osebe</p>
+          </div>
           <!-- button -->
           <div class="content__button">
             <button class="btn tab-nav active" data-tab="tab-1">
@@ -429,11 +544,9 @@
                 </div>
               </div>
               <div class="block__text">
-                <p>
-                  Beljenje stanovanja ali hiše <br />
-                  Pleskanje stanovanja ali hiše <br />
-                  Glajenje in kitanje sten
-                </p>
+                <p>Beljenje stanovanja ali hiše</p>
+                <p>Pleskanje stanovanja ali hiše</p>
+                <p>Glajenje in kitanje sten</p>
               </div>
             </div>
             <!-- content block-2 -->
@@ -450,11 +563,9 @@
                 </div>
               </div>
               <div class="block__text">
-                <p>
-                  Barvanje fasad <br />
-                  Delo na večjih objektih <br />
-                  Pleskanje kovinskih ograj in nadstreškov
-                </p>
+                <p>Barvanje fasad</p>
+                <p>Delo na večjih objektih</p>
+                <p>Pleskanje kovinskih ograj in nadstreškov</p>
               </div>
             </div>
             <!-- content block-3 -->
@@ -471,11 +582,9 @@
                 </div>
               </div>
               <div class="block__text">
-                <p>
-                  Hidroizolacije teras <br />
-                  Notranje hidroizolacije objektov <br />
-                  Sanacija vlažnih zidov kletnih prostorov
-                </p>
+                <p>Hidroizolacije teras</p>
+                <p>Notranje hidroizolacije objektov</p>
+                <p>Sanacija vlažnih zidov kletnih prostorov</p>
               </div>
             </div>
             <!-- content block-4 -->
@@ -492,12 +601,10 @@
                 </div>
               </div>
               <div class="block__text">
-                <p>
-                  Postavitev pregradnih sten <br />
-                  Montaža spuščenih stropov <br />
-                  Montaža raztegljivih stropov <br />
-                  Oblaganje podstrešja
-                </p>
+                <p>Postavitev pregradnih sten</p>
+                <p>Montaža spuščenih stropov</p>
+                <p>Montaža raztegljivih stropov</p>
+                <p>Oblaganje podstrešja</p>
               </div>
             </div>
             <!-- content block-5 -->
@@ -543,13 +650,12 @@
               <div class="accordion__item">
                 <img src="dist/static/icon-1.svg" alt="icon" class="images" />
                 <p>Pametne inštalacije</p>
-                <img src="dist/static/path.svg" alt="arrow" class="arrow"/>
+                <img src="dist/static/path.svg" alt="arrow" class="arrow" />
               </div>
               <div class="accordion__content">
-                <p>Beljenje stanovanja ali hiše <br />
-                  Pleskanje stanovanja ali hiše <br />
-                  Glajenje in kitanje sten
-                </p>
+                <p>Beljenje stanovanja ali hiše</p>
+                <p>Pleskanje stanovanja ali hiše</p>
+                <p>Glajenje in kitanje sten</p>
               </div>
             </div>
             <!-- 2 -->
@@ -557,13 +663,12 @@
               <div class="accordion__item">
                 <img src="dist/static/icon-2.svg" alt="icon" class="images" />
                 <p>Zunanja slikopleskarska dela</p>
-                <img src="dist/static/path.svg" alt="arrow" class="arrow"/>
+                <img src="dist/static/path.svg" alt="arrow" class="arrow" />
               </div>
               <div class="accordion__content">
-                <p>  Barvanje fasad <br />
-                  Delo na večjih objektih <br />
-                  Pleskanje kovinskih ograj in nadstreškov
-                </p>
+                <p>Barvanje fasad</p>
+                <p>Delo na večjih objektih</p>
+                <p>Pleskanje kovinskih ograj in nadstreškov</p>
               </div>
             </div>
             <!-- 3 -->
@@ -571,47 +676,45 @@
               <div class="accordion__item">
                 <img src="dist/static/icon-3.svg" alt="icon" class="images" />
                 <p>Izvedba hidroizolacije</p>
-                <img src="dist/static/path.svg" alt="arrow" class="arrow"/>
+                <img src="dist/static/path.svg" alt="arrow" class="arrow" />
               </div>
               <div class="accordion__content">
-                <p> Hidroizolacije teras <br />
-                  Notranje hidroizolacije objektov <br />
-                  Sanacija vlažnih zidov kletnih prostorov
-                </p>
+                <p>Hidroizolacije teras</p>
+                <p>Notranje hidroizolacije objektov</p>
+                <p>Sanacija vlažnih zidov kletnih prostorov</p>
               </div>
             </div>
-             <!-- 4 -->
-             <div class="accordion__wrapp">
+            <!-- 4 -->
+            <div class="accordion__wrapp">
               <div class="accordion__item">
                 <img src="dist/static/icon-4.svg" alt="icon" class="images" />
                 <p>Suhomontažna gradnja</p>
-                <img src="dist/static/path.svg" alt="arrow" class="arrow"/>
+                <img src="dist/static/path.svg" alt="arrow" class="arrow" />
               </div>
               <div class="accordion__content">
-                <p> Postavitev pregradnih sten <br />
-                  Montaža spuščenih stropov <br />
-                  Montaža raztegljivih stropov <br />
-                  Oblaganje podstrešja
-                </p>
+                <p>Postavitev pregradnih sten</p>
+                <p>Montaža spuščenih stropov</p>
+                <p>Montaža raztegljivih stropov</p>
+                <p>Oblaganje podstrešja</p>
               </div>
             </div>
-             <!-- 5 -->
-             <div class="accordion__wrapp">
+            <!-- 5 -->
+            <div class="accordion__wrapp">
               <div class="accordion__item">
                 <img src="dist/static/icon-5.svg" alt="icon" class="images" />
                 <p>Delo s talnimi oblogami</p>
-                <img src="dist/static/path.svg" alt="arrow" class="arrow"/>
+                <img src="dist/static/path.svg" alt="arrow" class="arrow" />
               </div>
               <div class="accordion__content">
                 <p>Delo z industrijskimi tlaki</p>
               </div>
             </div>
-             <!-- 6 -->
-             <div class="accordion__wrapp">
+            <!-- 6 -->
+            <div class="accordion__wrapp">
               <div class="accordion__item">
                 <img src="dist/static/icon-6.svg" alt="icon" class="images" />
                 <p>Pametne inštalacije</p>
-                <img src="dist/static/path.svg" alt="arrow" class="arrow"/>
+                <img src="dist/static/path.svg" alt="arrow" class="arrow" />
               </div>
               <div class="accordion__content">
                 <p>Montaža pametnih sten piši-briši</p>
@@ -620,9 +723,10 @@
           </div>
           <!-- /accordion -->
 
-          <!-- btn -->
-          <!-- <button class="btn-acc">Storitve za podjetja</button> -->
-          <!-- /btn -->
+          <!-- button-block -->
+          <div class="button-block">
+            <p>Storitve za podjetja</p>
+          </div>
 
           <!-- wrapp two -->
           <div class="content__wrapp-two tab-block tab-2">
@@ -646,7 +750,7 @@
                 dnevno.
               </p>
             </div>
-            <button class="btn">
+            <button class="button">
               Preberite več
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -686,9 +790,132 @@
 
     <!-- footer -->
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container">
+        <!-- footer logo -->
+        <div class="footer__logotype">
+          <img src="dist/static/footer-logo.svg" alt="logo" />
+        </div>
+        <div class="logo-habat">
+          <img src="dist/static/habat-white.svg" alt="habat" />
+        </div>
+
+        <!-- stortive -->
+        <div class="footer__stortive">
+          <div class="wrapp">
+            <div class="stortive-one">
+              <div class="title">
+                <p>Stortive</p>
+              </div>
+
+              <ul class="list">
+                <li class="item">
+                  <a href="">Beljenje stanovanja ali hiše</a>
+                </li>
+                <li class="item">
+                  <a href="">Pleskanje stanovanja ali hiše</a>
+                </li>
+                <li class="item">
+                  <a href="">Glajenje in kitanje sten</a>
+                </li>
+                <li class="item">
+                  <a href="">Barvanje fasad</a>
+                </li>
+                <li class="item">
+                  <a href="">Delo na večjih objektih</a>
+                </li>
+                <li class="item">
+                  <a href="">Pleskanje kovinskih ograj in nadstreškov</a>
+                </li>
+                <li class="item">
+                  <a href="">Hidroizolacije teras</a>
+                </li>
+                <li class="item">
+                  <a href="">Notranje hidroizolacije objektov</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="stortive-two">
+              <ul class="list">
+                <li class="item">
+                  <a href="">Sanacija vlažnih zidov kletnih prostorov</a>
+                </li>
+                <li class="item">
+                  <a href="">Postavitev pregradnih sten</a>
+                </li>
+                <li class="item">
+                  <a href="">Montaža spuščenih stropov</a>
+                </li>
+                <li class="item">
+                  <a href="">Montaža raztegljivih stropov</a>
+                </li>
+                <li class="item">
+                  <a href="">Oblaganje podstrešja</a>
+                </li>
+                <li class="item">
+                  <a href="">Delo z industrijskimi tlaki</a>
+                </li>
+                <li class="item">
+                  <a href="">Montaža pametnih sten piši-briši</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- kontakt -->
+          <div class="kontakt__wrapp">
+            <div class="title">
+              <p>Kontakt</p>
+            </div>
+
+            <div class="wrapper">
+              <div class="kontakt__adress">
+                <p>Habat d.o.o. Ulica pod gozdom 14 1236 Trzin Slovenija</p>
+              </div>
+
+              <div class="kontakt__phone">
+                <div class="phone">
+                  <a class="phone__link" href="tel:+7041625519">041 625 519</a>
+                </div>
+                <div class="email">
+                  <a
+                    class="email__link"
+                    href="mailto:info@slikopleskarstvo-habat.si"
+                    >info@slikopleskarstvo-habat.si</a
+                  >
+                </div>
+              </div>
+
+              <div class="kontakt__button">
+                <button class="kontakt-btn">
+                  <img src="dist/static/facebook.svg" alt="facebook" />
+                  Obiščite nas tudi na Facebooku
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer-radian -->
+        <div class="footer__radian">
+          <div class="text">
+            <p class="block-none">© Slikopleskarstvo Habat 1978-2020</p>
+            <p>Pogoji uporabe piškotkov</p>
+            <p>Pravilnik o varstvu osebnih podatkov</p>
+          </div>
+          <div class="radian">
+            <p>Izdelava spletne strani in podpora</p>
+            <a href="#">
+              <img src="dist/static/radian.svg" alt="radian" />
+            </a>
+          </div>
+          <p class="block-radian">© Slikopleskarstvo Habat 1978-2020</p>
+        </div>
+
+      </div>
     </footer>
     <!-- /footer -->
+
     <script src="dist/js/app.js"></script>
   </body>
 </html>

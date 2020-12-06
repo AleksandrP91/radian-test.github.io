@@ -5,8 +5,8 @@
   height: 835px;
   display: flex;
   .main__slider-people {
-    display: none;
     position: relative;
+    display: none;
     .main__images {
       height: 835px;
       img {
@@ -17,14 +17,13 @@
       }
     }
     .container {
-      // max-width: 1300px;
       margin: 0 auto;
       height: 100%;
     }
   }
+ 
   .mask__slider-people {
     display: none;
-    position: relative;
     .mask__images {
       height: 835px;
       img {
@@ -35,14 +34,21 @@
       }
     }
     .container {
-      // max-width: 1300px;
       margin: 0 auto;
       height: 100%;
     }
   }
   .house__slider-people {
     display: none;
-    position: relative;
+    // opacity: 0;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // transition: 0.8s ease-in-out;
+    // -webkit-transition: 0.8s ease-in-out;
+    // -moz-transition: 0.8s ease-in-out;
+    // -ms-transition: 0.8s ease-in-out;
+    // -o-transition: 0.8s ease-in-out;
     .house__images {
       height: 835px;
       img {
@@ -53,7 +59,6 @@
       }
     }
     .container {
-      // max-width: 1300px;
       margin: 0 auto;
       height: 100%;
     }

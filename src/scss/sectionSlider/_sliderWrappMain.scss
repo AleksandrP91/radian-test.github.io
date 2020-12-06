@@ -41,7 +41,7 @@
   left: 310px;
   width: 287px;
   margin: 0 0 0 8px;
-  .btn {
+  .btn-main {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,7 +57,7 @@
     outline: none;
     cursor: pointer;
   }
-  .btn:hover {
+  .btn-main:hover {
     background-color: #ffcf4b;
     transition: 0.4s;
     -webkit-transition: 0.4s;
@@ -66,26 +66,25 @@
     -o-transition: 0.4s;
     .a {
       fill: #ffcf4b;
-      transition: 0.3s;
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -ms-transition: 0.3s;
-      -o-transition: 0.3s;
+      transition: 0.4s;
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      -ms-transition: 0.4s;
+      -o-transition: 0.4s;
     }
     .b {
       stroke: #000000;
-      transition: 0.2s;
-      -webkit-transition: 0.2s;
-      -moz-transition: 0.2s;
-      -ms-transition: 0.2s;
-      -o-transition: 0.2s;
+      transition: 0.4s;
+      -webkit-transition: 0.4s;
+      -moz-transition: 0.4s;
+      -ms-transition: 0.4s;
+      -o-transition: 0.4s;
     }
   }
 }
 
-
 // media
-@media (max-width: 1600px) {
+@media (max-width: 1599px) {
   .slider__title {
     top: 100px;
     left: 140px;
@@ -104,7 +103,7 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .slider__title {
     left: 70px;
   }
@@ -122,7 +121,7 @@
   }
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1365px) {
   .slider__title {
     left: 30px;
   }
@@ -137,7 +136,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .slider__title {
     width: 230px;
     height: 48px;
@@ -164,7 +163,7 @@
   .slider__button {
     top: 325px;
     left: 42px;
-    .btn {
+    .btn-main {
       width: 254px;
       height: 60px;
       font-size: 15px;

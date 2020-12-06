@@ -1,4 +1,5 @@
 .rectangle {
+  padding: 0 20px;
   max-width: 1920px;
   margin: 0 auto;
   min-height: 123px;
@@ -25,6 +26,7 @@
           font-size: 34px;
           font-weight: 700;
           font-family: 'Arvo';
+          text-transform: uppercase;
         }
         .text {
           max-width: 204px;
@@ -92,6 +94,9 @@
       .wrapper {
         .rectangle__block-two {
           margin: 0;
+          .year {
+            margin-left: 46px;
+          }
         }
         .rectangle__block-three {
           margin: 0;
